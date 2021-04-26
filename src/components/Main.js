@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import DataArea from "./DataArea";
 import "../index.css";
 
 export default class Main extends Component {
-    render () {
-        return (
-            <div className="header">
-                <h1>Employee Directory</h1>
-                <p>Sort by name or use the search box</p>
-            </div>
-        )
-    }
+  render() {
+    return <DataArea />;
+  }
 }

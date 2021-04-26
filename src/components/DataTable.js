@@ -1,6 +1,6 @@
 import React from "react";
 import DataBody from "./DataBody";
-import "../styles/DataTable.css";
+import "../index.css";
 
 function DataTable({ headings, users, handleSort }) {
   return (
