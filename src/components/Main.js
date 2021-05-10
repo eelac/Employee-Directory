@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import DataArea from "./DataArea";
-import "../index.css";
+import "../styles/styles.css";
 
 export default class Main extends Component {
   render() {
